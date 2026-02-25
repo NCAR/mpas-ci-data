@@ -1,0 +1,12 @@
+{
+  "current_summary": "mpas_ect_summary_120km.nc",
+  "versioned_summary": "ect-summaries/mpas_ect_summary_120km_v8.3.1_20260225.nc",
+  "mpas_version": "8.3.1",
+  "branch": "feature-ci-test-cases",
+  "commit": "591b6997",
+  "resolution": "120km",
+  "ensemble_size": 200,
+  "generated": "2026-02-25",
+  "pycect_tslice": 0,
+  "workflow_run": "https://github.com/NCAR/MPAS-Model-CI/actions/runs/22405675028"
+}
