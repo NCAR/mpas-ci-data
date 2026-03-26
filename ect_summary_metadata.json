@@ -1,12 +1,24 @@
 {
   "current_summary": "mpas_ect_summary_120km.nc",
-  "versioned_summary": "ect-summaries/mpas_ect_summary_120km_v8.3.1_20260225.nc",
+  "versioned_summary": "ect-summaries/mpas_ect_summary_120km_v8.3.1_20260326.nc",
+  "mpas_repo": "NCAR/MPAS-Model-CI",
   "mpas_version": "8.3.1",
-  "branch": "feature-ci-test-cases",
-  "commit": "591b6997",
+  "branch": "master",
+  "commit": "2709c9a8",
   "resolution": "120km",
-  "ensemble_size": 200,
-  "generated": "2026-02-25",
-  "pycect_tslice": 0,
-  "workflow_run": "https://github.com/NCAR/MPAS-Model-CI/actions/runs/22405675028"
+  "build": {
+    "compiler": "nvhpc",
+    "mpi": "mpich",
+    "precision": "double"
+  },
+  "run": {
+    "duration": "0_02:36:00",
+    "perturbation_magnitude": "1e-14",
+    "perturbation_variable": "theta",
+    "ensemble_size": 200,
+    "pycect_tslice": 0
+  },
+  "restart_file": "mpas_ect_summary_120km_restart.nc",
+  "generated": "2026-03-26",
+  "workflow_run": "https://github.com/NCAR/MPAS-Model-CI/actions/runs/23613116592"
 }
